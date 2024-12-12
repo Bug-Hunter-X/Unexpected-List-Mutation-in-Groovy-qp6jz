@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Groovy where the mutability of lists leads to unexpected behavior. The `addOneToList` function modifies the original list passed as an argument. This can lead to hard-to-debug problems in larger applications.  The solution shows how to avoid this by creating a copy of the list before modification. 
